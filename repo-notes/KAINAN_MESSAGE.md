@@ -2,7 +2,7 @@
 
 Hey Kainan, I put together a compact proof repo here:
 
-`PASTE_GITHUB_REPO_LINK_HERE`
+https://github.com/QualitativAI/series-creative-partner-proof
 
 The full demo / X post is here:
 
