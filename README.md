@@ -64,7 +64,6 @@ Not included:
 - bulky generated-media folders
 - the local Director Cockpit prototype, which was outside hackathon scope
 
-See `repo-notes/SCOPE_NOTES.md` for details.
 
 ## Current Status
 
