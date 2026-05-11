@@ -9,7 +9,7 @@ A 31-item blind holdout check was used to test whether the taste-memory workflow
 - Frozen baseline exact-label match score: `3/31`
 - Post-workflow retest exact-label match score: `7/31`
 
-This is not presented as a finished taste model. It is evidence that the workflow became measurable and improved after structured taste memory, feedback contracts, and review tooling were implemented.
+This is not presented as a finished taste model. It is evidence that the workflow became measurable and improved after structured taste memory, feedback contracts, and review tooling were implemented. The important technical move is that visual taste becomes retrievable memory: image perception, 3072-dimensional Gemini embeddings, Chroma similarity search, and structured Aaron feedback all become part of the Brain's future review context.
 
 ## What Is Included
 
