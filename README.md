@@ -43,6 +43,7 @@ Kimi K2.6 is used as part of the Brain-side creative reasoning and worldbuilding
 - Job packets and result manifests create an auditable handoff loop.
 - Dedicated-device validation jobs include their job packets, status sidecars, result manifests, and output JPEGs.
 - Visual outputs are reviewed through structured packets and lightboxes.
+- Visual memory is not just folder storage: generated and reference images move through Gemini 3 Flash perception, Gemini Embedding 2 vectorization at 3072 dimensions, and Chroma retrieval for visual similarity, feedback search, and long-term taste memory.
 - Taste learning is represented as structured feedback contracts, anchor-set logic, scoring scripts, and review workflows.
 - A 31-item blind holdout check improved from a frozen 3/31 exact-label baseline to a 7/31 retest after the taste-memory workflow was implemented.
 - Kimi participates in the Brain-side creative/worldbuilding layer rather than being used as a one-off chatbot.
