@@ -19,6 +19,12 @@ The system is designed for a solo worldbuilder or AI filmmaker who needs help wi
 - Taste memory: Chroma/Gemini-based multimodal memory for visual anchors, generated outputs, feedback, and search.
 - Review layer: lightboxes, feedback worksheets, scoring scripts, and structured review records.
 
+## Visual Memory Layer
+
+The visual-memory layer is what makes the system more than a set of prompts and folders. Images can be described through Gemini 3 Flash perception, embedded through Gemini Embedding 2 at 3072 dimensions, and stored in Chroma as a rebuildable retrieval index. The Brain keeps both visual-similarity records and compact `search_text` records that combine perception, feedback, tags, quality tier, model/job lineage, and source paths.
+
+That means Kimi is operating inside a memory-rich creative environment: it can reason about lore and worldbuilding while the surrounding system preserves visual precedent, taste feedback, and production history across sessions.
+
 ## Kimi's Role
 
 Kimi K2.6 is part of the Brain-side creative reasoning path for lore, worldbuilding, and project-aware creative text work. The point is not simply that Kimi can answer a prompt. The point is that Kimi can operate inside a larger memory-rich production system where creative context, taste, and prior decisions are preserved across sessions.
@@ -26,7 +32,7 @@ Kimi K2.6 is part of the Brain-side creative reasoning path for lore, worldbuild
 ## Evidence Included
 
 - Final build-plan corpus for the Brain and Flow Arm tracks.
-- Working Python scripts for anchor handling, taste memory, scoring, review packets, feedback application, charting, and search.
+- Working Python scripts for image perception, anchor handling, Gemini Embedding 2 vectorization, Chroma-backed taste memory, scoring, review packets, feedback application, charting, and search.
 - Sample handoff jobs and status files.
 - Sample result manifests from Flow Arm output.
 - A generated review lightbox with images and manifest.
