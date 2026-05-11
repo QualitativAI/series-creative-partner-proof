@@ -17,6 +17,8 @@ These are the final active plan folders used by the project snapshot. Older lega
 ## 2. Working Code Evidence
 
 - `working-code/benchmark-scripts/` contains the Python scripts for ingestion, scoring, review packets, lightboxes, feedback application, taste-memory indexing/search, validation, and status reads.
+- `describe_image.py` supports Gemini 3 Flash perception for generated/reference images.
+- `embed_anchors.py`, `score.py`, `search_anchors.py`, `rebuild_taste_memory_index.py`, and `search_taste_memory.py` show the Gemini Embedding 2 + Chroma visual-memory path: image embeddings, compact text-search records, metadata filters, and retrieval against prior feedback and visual precedent.
 
 The repo does not include live credentials, database files, or the full holdout answer rows.
 
