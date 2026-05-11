@@ -1,0 +1,87 @@
+{
+  "schema_version": "v1",
+  "slug": "lantern-district-nbp-001-review",
+  "description": "Aaron review lightbox for job-lantern-district-nbp-001 \u2014 Lantern District Nano Banana Pro visual probe",
+  "created_at": "2026-05-04T00:08:32.525548+00:00",
+  "source_logs_dir": "/workspace/series-vault/benchmark/logs",
+  "production_source": "/workspace/series-vault/benchmark/logs/generations.jsonl",
+  "source_jsonl": [],
+  "selection_mode": "explicit_image_ids",
+  "explicit_image_ids": [
+    "sha256:a570f6775a15f238",
+    "sha256:7613d1053ecb3f5f",
+    "sha256:a3a4e5febfe5d5f0",
+    "sha256:d05d3e8e7b887f3b"
+  ],
+  "image_ids_file": "reviews/visual/jobs/job-lantern-district-nbp-001/image-ids.json",
+  "missing_image_ids": [],
+  "filters": {
+    "tier": null,
+    "tags": null,
+    "state": null,
+    "tone": null,
+    "model": null,
+    "score_min": null,
+    "score_max": null,
+    "scene_fit": null,
+    "failure_mode": null,
+    "promotion": null,
+    "review_status": null,
+    "limit": 100
+  },
+  "input_row_count": 39,
+  "malformed_row_count": 0,
+  "latest_image_count": 17,
+  "item_count": 4,
+  "warnings": [],
+  "items": [
+    {
+      "image_id": "sha256:a570f6775a15f238",
+      "filename": "job-lantern-district-nbp-001_p01_t01_img01.jpeg",
+      "source_path": "assets/images/generated/jobs/job-lantern-district-nbp-001/nano-banana-pro/p01/job-lantern-district-nbp-001_p01_t01_img01.jpeg",
+      "image_origin": "generation",
+      "created_by": "nano-banana-pro",
+      "review_status": "pre_evaluated",
+      "brain_initial_tags": "cliffside-density-working, lantern-infrastructure-working, lived-in-materiality, atmosphere-on-point, ghost-moths-working, vast-but-intimate",
+      "event_timestamp": "2026-05-04T00:08:18.869899Z",
+      "session_id": "2026-05-04T00:06:18.702308Z",
+      "copied_image": "images/sha256-a570f6775a15f238-job-lantern-district-nbp-001_p01_t01_img01.jpeg"
+    },
+    {
+      "image_id": "sha256:7613d1053ecb3f5f",
+      "filename": "job-lantern-district-nbp-001_p02_t01_img01.jpeg",
+      "source_path": "assets/images/generated/jobs/job-lantern-district-nbp-001/nano-banana-pro/p02/job-lantern-district-nbp-001_p02_t01_img01.jpeg",
+      "image_origin": "generation",
+      "created_by": "nano-banana-pro",
+      "review_status": "pre_evaluated",
+      "brain_initial_tags": "low-status-worker, emotional-isolation, lantern-labor-working, damp-stone-good, character-fits-world, intimate-scale",
+      "event_timestamp": "2026-05-04T00:08:18.917333Z",
+      "session_id": "2026-05-04T00:06:18.702308Z",
+      "copied_image": "images/sha256-7613d1053ecb3f5f-job-lantern-district-nbp-001_p02_t01_img01.jpeg"
+    },
+    {
+      "image_id": "sha256:a3a4e5febfe5d5f0",
+      "filename": "job-lantern-district-nbp-001_p03_t01_img01.jpeg",
+      "source_path": "assets/images/generated/jobs/job-lantern-district-nbp-001/nano-banana-pro/p03/job-lantern-district-nbp-001_p03_t01_img01.jpeg",
+      "image_origin": "generation",
+      "created_by": "nano-banana-pro",
+      "review_status": "pre_evaluated",
+      "brain_initial_tags": "workshop-concept-working, class-inequality-present, visible-text-issue, bureaucracy-sacred, materiality-grimy, execution-partial",
+      "event_timestamp": "2026-05-04T00:08:18.963009Z",
+      "session_id": "2026-05-04T00:06:18.702308Z",
+      "copied_image": "images/sha256-a3a4e5febfe5d5f0-job-lantern-district-nbp-001_p03_t01_img01.jpeg"
+    },
+    {
+      "image_id": "sha256:d05d3e8e7b887f3b",
+      "filename": "job-lantern-district-nbp-001_p04_t01_img01.jpeg",
+      "source_path": "assets/images/generated/jobs/job-lantern-district-nbp-001/nano-banana-pro/p04/job-lantern-district-nbp-001_p04_t01_img01.jpeg",
+      "image_origin": "generation",
+      "created_by": "nano-banana-pro",
+      "review_status": "pre_evaluated",
+      "brain_initial_tags": "intimate-grief-working, impossible-lantern-working, blue-white-light-good, outer-warmth-inner-isolation, mourning-house, emotional-weight-present",
+      "event_timestamp": "2026-05-04T00:08:19.007961Z",
+      "session_id": "2026-05-04T00:06:18.702308Z",
+      "copied_image": "images/sha256-d05d3e8e7b887f3b-job-lantern-district-nbp-001_p04_t01_img01.jpeg"
+    }
+  ]
+}

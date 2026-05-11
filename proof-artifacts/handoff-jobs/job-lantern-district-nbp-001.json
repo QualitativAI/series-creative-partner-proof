@@ -1,0 +1,90 @@
+{
+  "schema_version": "handoff.v1",
+  "packet_type": "series_review_job_packet",
+  "job_id": "job-lantern-district-nbp-001",
+  "intent_id": "intent-lantern-district-dead-guidance-visual-probe",
+  "objective": "Lightweight four-prompt Nano Banana Pro visual probe for The Lantern District That Keeps the Dead From Getting Lost. Generate one image per prompt to test ultra-realistic but still subtly stylized Series visual language across district, worker, workshop, and inciting-lantern scenes.",
+  "packet_status": "dispatched",
+  "packet_revision": 2,
+  "created_at": "2026-05-03T23:51:25Z",
+  "last_preflight_at": "2026-05-03T23:51:25Z",
+  "preflight_notes": "Aaron explicitly requested four prompts and asked Brain to create the job packet and make it ready for Flow Arm dispatch in the same step.",
+  "approved_for_dispatch_by_aaron": true,
+  "output_resolution": "2k",
+  "generations_per_prompt": 1,
+  "result_manifest_path": "results/incoming/job-lantern-district-nbp-001/manifest.json",
+  "prompts": [
+    {
+      "prompt_id": "p01",
+      "base_concept": "The lantern-stair district at dusk: poor crowded cliffside city infrastructure that guides the dead through darkness without becoming cozy or cute.",
+      "world_state": "sacred",
+      "tone": "still",
+      "targets": [
+        {
+          "target_id": "p01-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "A poor cliffside city district at blue-hour dusk, hundreds of enchanted lanterns hung from crooked balconies, rope lines, stone stairways, and patched awnings so the souls of the dead can find the path between worlds, crowded vertical architecture built into wet old rock above a dark river far below, lantern-makers and mourning families moving through narrow alleys, ghost-moths drifting around the lights, warm human windows inside vast cool shadow, ultra-realistic but still subtly stylized rendered look, photoreal material detail with a slight fantasy-render edge, weathered stone, damp wood, soot, oil, cloth, old brass, intimate scale with mythic spiritual infrastructure, sincere grief and daily labor, no cute ghosts, no cozy cartoon fantasy, no anime, no painterly illustration, no modern objects, no readable text, 2k."
+        }
+      ]
+    },
+    {
+      "prompt_id": "p02",
+      "base_concept": "A humble lantern-runner / wick-cutter doing exhausted sacred work while grief infrastructure strains around him.",
+      "world_state": "dna-core",
+      "tone": "mournful",
+      "targets": [
+        {
+          "target_id": "p02-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "A young low-status lantern-runner in a worn oil-stained coat and gloves climbs a dangerous exterior stair along a riverside cliff district, carrying a rack of freshly lit soul-lanterns and spare wicks, exhausted but careful, face lit by amber lantern glow, behind him stacked mourning houses and cramped workshops lean over black water, ghost-moths and faint translucent soul-trails swirl in the mist without becoming cute or sentimental, poor families watch from doorways, old ropes, pulley baskets, soot-dark stone, wet slate roofs, tactile ultra-realistic fantasy rendering with a slight stylized edge, realistic skin and fabric detail, emotional isolation inside communal warmth, no anime, no cartoon ghost, no glossy game key art, no modern objects, no readable text, 2k."
+        }
+      ]
+    },
+    {
+      "prompt_id": "p03",
+      "base_concept": "The morally charged oil-rendering and lantern-making workshop where the afterlife depends on ugly labor and class inequality.",
+      "world_state": "corrupted",
+      "tone": "oppressive",
+      "targets": [
+        {
+          "target_id": "p03-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "Inside a cramped lantern-makers' oil-rendering workshop beneath the Lantern District, poor workers press pale spirit-oil into cloudy glass reservoirs while brighter expensive lanterns for wealthy families hang locked behind iron mesh, dim cheap lanterns piled for the poor dead, debt tallies scratched on slate, exhausted oil-renderers, wick-cutters, and a stern spirit-guide arguing in amber smoke, greasy tables, brass funnels, cracked glass, stained aprons, old prayer tags, no readable text, moral pressure without cartoon villains, sacred bureaucracy made physical, ultra-realistic but still stylized rendered fantasy look, high detail, realistic grime and skin texture, warm lantern light against green-black river damp, no anime, no painterly look, no modern industrial machinery, 2k."
+        }
+      ]
+    },
+    {
+      "prompt_id": "p04",
+      "base_concept": "The impossible returning lantern: one light refuses to go out in a midnight mourning house, suggesting a dead person is trying to come back.",
+      "world_state": "broken",
+      "tone": "eerie",
+      "targets": [
+        {
+          "target_id": "p04-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "Midnight inside a poor mourning house in the Lantern District, a single impossible soul-lantern on a low table refuses to go out after the vigil, burning blue-white inside warm amber darkness, an exhausted apprentice spirit-guide and grieving family stare at it in fearful silence, children half-hidden behind hanging laundry, ghost-moths clustering at the window, outside the crowded cliffside district is a maze of lanterns descending toward black water, intimate human grief with enormous unseen stakes, ultra-realistic but subtly stylized rendered look, photoreal faces and hands with slight fantasy-render finish, old wood, cracked plaster, oil smoke, damp stone, no cute ghosts, no cozy sentimentality, no horror gore, no anime, no modern objects, no readable text, 2k."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "handoff.v1",
+  "packet_type": "series_review_job_packet",
+  "job_id": "job-4c-mixed-fit-probe-001",
+  "intent_id": "intent-4c-mixed-fit-probe",
+  "objective": "Generate a four-image mixed-fit probe batch for Series taste calibration: one likely strong Series-fit image, one edge/maybe image, one likely miss or anti-style image, and one ordinary neutral image.",
+  "packet_status": "dispatched",
+  "packet_revision": 2,
+  "created_at": "2026-05-01T20:54:58Z",
+  "last_preflight_at": "2026-05-01T20:57:04Z",
+  "preflight_notes": "Aaron explicitly approved this packet for dispatch; moved from draft to outgoing handoff queue.",
+  "approved_for_dispatch_by_aaron": true,
+  "output_resolution": "2k",
+  "generations_per_prompt": 1,
+  "result_manifest_path": "results/incoming/job-4c-mixed-fit-probe-001/manifest.json",
+  "prompts": [
+    {
+      "prompt_id": "p01",
+      "base_concept": "Likely strong Series-fit image: a sacred, still threshold in the Series world where ancient stone, living growth, and quiet late light feel native rather than decorative.",
+      "world_state": "sacred",
+      "tone": "still",
+      "targets": [
+        {
+          "target_id": "p01-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "A likely strong Series-fit image: an ancient weathered stone threshold half reclaimed by living vines and moss, late amber light crossing the floor, quiet sacred stillness, grounded cinematic composition, tactile material detail, subtle mystery, no text, no signage, no modern objects, no anime styling, 2k."
+        }
+      ]
+    },
+    {
+      "prompt_id": "p02",
+      "base_concept": "Edge/maybe image: a broken Series-world exterior that has some right atmosphere and materiality but risks becoming too generic fantasy ruin.",
+      "world_state": "broken",
+      "tone": "mournful",
+      "targets": [
+        {
+          "target_id": "p02-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "An edge-case maybe Series-fit image: a broken hillside ruin at dusk, old stone ribs and fragments partly swallowed by grass, mournful atmosphere, one small warm lantern glow in the distance, beautiful but slightly conventional fantasy framing, tactile materials, no text, no characters, no modern objects, 2k."
+        }
+      ]
+    },
+    {
+      "prompt_id": "p03",
+      "base_concept": "Likely miss or anti-style image: an overdesigned flashy fantasy action scene that should test whether the review pipeline rejects non-Series visual language.",
+      "world_state": "corrupted",
+      "tone": "tense",
+      "targets": [
+        {
+          "target_id": "p03-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "A likely miss or anti-style image for Series: an overdesigned neon fantasy battle portal, glossy purple energy, spiky armor silhouettes, dramatic lightning, symmetrical game-key-art composition, exaggerated VFX, high-contrast poster look, intentionally flashy and generic, no readable text, 2k."
+        }
+      ]
+    },
+    {
+      "prompt_id": "p04",
+      "base_concept": "Ordinary neutral image: a plain non-dramatic environment with competent rendering but little Series-specific signal.",
+      "world_state": "neutral",
+      "tone": "neutral",
+      "targets": [
+        {
+          "target_id": "p04-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "An ordinary neutral image: a simple empty rural footpath beside low stone walls and ordinary trees under overcast daylight, calm but not magical, natural colors, competent realistic rendering, no strong narrative, no text, no characters, no modern objects, 2k."
+        }
+      ]
+    }
+  ]
+}

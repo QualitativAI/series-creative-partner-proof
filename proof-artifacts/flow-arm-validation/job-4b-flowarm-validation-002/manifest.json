@@ -1,0 +1,50 @@
+{
+  "schema_version": "handoff-result.v1",
+  "manifest_type": "series_flowarm_result",
+  "job_id": "job-4b-flowarm-validation-002",
+  "intent_id": "intent-4b-flowarm-plan-07-validation",
+  "packet_revision": 2,
+  "source_packet_path": "jobs/completed/job-4b-flowarm-validation-002.json",
+  "handoff_status": "completed",
+  "result_status": "success",
+  "created_at": "2026-05-01T09:41:25Z",
+  "dispatched_at": "2026-05-01T08:34:54Z",
+  "claimed_at": "2026-05-01T08:36:06Z",
+  "completed_at": "2026-05-01T08:40:14Z",
+  "completed_by": "flowarm",
+  "output_root": "results/incoming/job-4b-flowarm-validation-002",
+  "prompts_completed": [
+    {
+      "prompt_id": "p01",
+      "base_concept": "A quiet Series-world threshold at the edge of an old stone interior, with soft living overgrowth and late light crossing the floor.",
+      "world_state": "sacred",
+      "tone": "still",
+      "targets_completed": [
+        {
+          "target_id": "p01-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "generation_model": "nano-banana-pro",
+          "rendered_prompt": "A sacred still Series-world stone threshold, quiet interior edge, soft living overgrowth, late warm light crossing the floor, grounded cinematic composition, no text, no signage, no modern objects, 2k.",
+          "assets": [
+            {
+              "asset_id": "job-4b-flowarm-validation-002_p01_t01_img01",
+              "output_index": 1,
+              "file_path": "results/incoming/job-4b-flowarm-validation-002/prompt-p01/nano-banana-pro_job-4b-flowarm-validation-002_p01_img01_20260501.jpeg",
+              "mime_type": "image/jpeg",
+              "width": 2752,
+              "height": 1536,
+              "image_origin": "generation",
+              "event_timestamp": "2026-05-01T08:40:14Z",
+              "sha256": "87a556d141552fea33d807bf6f1a6c33ce6080f5a08c1d7d5567a91561291958"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

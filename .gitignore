@@ -1,0 +1,11 @@
+.DS_Store
+.env
+*.sqlite
+*.sqlite3
+chroma_data/
+node_modules/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+

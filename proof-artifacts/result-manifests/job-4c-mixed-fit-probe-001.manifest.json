@@ -1,0 +1,144 @@
+{
+  "schema_version": "handoff-result.v1",
+  "manifest_type": "series_flowarm_result",
+  "job_id": "job-4c-mixed-fit-probe-001",
+  "intent_id": "intent-4c-mixed-fit-probe",
+  "packet_revision": 2,
+  "source_packet_path": "jobs/completed/job-4c-mixed-fit-probe-001.json",
+  "handoff_status": "completed",
+  "result_status": "success",
+  "created_at": "2026-05-01T21:41:54Z",
+  "dispatched_at": "2026-05-01T20:57:04Z",
+  "claimed_at": "2026-05-01T21:00:25Z",
+  "completed_at": "2026-05-01T21:41:54Z",
+  "completed_by": "flowarm",
+  "output_root": "results/incoming/job-4c-mixed-fit-probe-001",
+  "prompts_completed": [
+    {
+      "prompt_id": "p01",
+      "base_concept": "Likely strong Series-fit image: a sacred, still threshold in the Series world where ancient stone, living growth, and quiet late light feel native rather than decorative.",
+      "world_state": "sacred",
+      "tone": "still",
+      "targets_completed": [
+        {
+          "target_id": "p01-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "generation_model": "nano-banana-pro",
+          "rendered_prompt": "A likely strong Series-fit image: an ancient weathered stone threshold half reclaimed by living vines and moss, late amber light crossing the floor, quiet sacred stillness, grounded cinematic composition, tactile material detail, subtle mystery, no text, no signage, no modern objects, no anime styling, 2k.",
+          "assets": [
+            {
+              "asset_id": "job-4c-mixed-fit-probe-001_p01_t01_img01",
+              "output_index": 1,
+              "file_path": "results/incoming/job-4c-mixed-fit-probe-001/prompt-p01/nano-banana-pro_job-4c-mixed-fit-probe-001_p01_img01_20260501.jpeg",
+              "mime_type": "image/jpeg",
+              "width": 2752,
+              "height": 1536,
+              "image_origin": "generation",
+              "event_timestamp": "2026-05-01T21:41:54Z",
+              "sha256": "57c779c47f7f5f92ce13f2a2a25ac7ecd3ea67157f1d4a987ad0f1a8f7c7a230",
+              "file_size_bytes": 3758142
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": "p02",
+      "base_concept": "Edge/maybe image: a broken Series-world exterior that has some right atmosphere and materiality but risks becoming too generic fantasy ruin.",
+      "world_state": "broken",
+      "tone": "mournful",
+      "targets_completed": [
+        {
+          "target_id": "p02-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "generation_model": "nano-banana-pro",
+          "rendered_prompt": "An edge-case maybe Series-fit image: a broken hillside ruin at dusk, old stone ribs and fragments partly swallowed by grass, mournful atmosphere, one small warm lantern glow in the distance, beautiful but slightly conventional fantasy framing, tactile materials, no text, no characters, no modern objects, 2k.",
+          "assets": [
+            {
+              "asset_id": "job-4c-mixed-fit-probe-001_p02_t01_img01",
+              "output_index": 1,
+              "file_path": "results/incoming/job-4c-mixed-fit-probe-001/prompt-p02/nano-banana-pro_job-4c-mixed-fit-probe-001_p02_img01_20260501.jpeg",
+              "mime_type": "image/jpeg",
+              "width": 2752,
+              "height": 1536,
+              "image_origin": "generation",
+              "event_timestamp": "2026-05-01T21:41:54Z",
+              "sha256": "3c9ff5873a5a25169ce5ad9ae3dee6bb40e3b5977d0e61705a3036dcf7b2c5fb",
+              "file_size_bytes": 3392967
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": "p03",
+      "base_concept": "Likely miss or anti-style image: an overdesigned flashy fantasy action scene that should test whether the review pipeline rejects non-Series visual language.",
+      "world_state": "corrupted",
+      "tone": "tense",
+      "targets_completed": [
+        {
+          "target_id": "p03-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "generation_model": "nano-banana-pro",
+          "rendered_prompt": "A likely miss or anti-style image for Series: an overdesigned neon fantasy battle portal, glossy purple energy, spiky armor silhouettes, dramatic lightning, symmetrical game-key-art composition, exaggerated VFX, high-contrast poster look, intentionally flashy and generic, no readable text, 2k.",
+          "assets": [
+            {
+              "asset_id": "job-4c-mixed-fit-probe-001_p03_t01_img01",
+              "output_index": 1,
+              "file_path": "results/incoming/job-4c-mixed-fit-probe-001/prompt-p03/nano-banana-pro_job-4c-mixed-fit-probe-001_p03_img01_20260501.jpeg",
+              "mime_type": "image/jpeg",
+              "width": 2752,
+              "height": 1536,
+              "image_origin": "generation",
+              "event_timestamp": "2026-05-01T21:41:54Z",
+              "sha256": "c7997a71074a7dce63d0ce545f108ad61218a5ba5dcf538bf853c4aec0a52910",
+              "file_size_bytes": 3096213
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "prompt_id": "p04",
+      "base_concept": "Ordinary neutral image: a plain non-dramatic environment with competent rendering but little Series-specific signal.",
+      "world_state": "neutral",
+      "tone": "neutral",
+      "targets_completed": [
+        {
+          "target_id": "p04-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "generation_model": "nano-banana-pro",
+          "rendered_prompt": "An ordinary neutral image: a simple empty rural footpath beside low stone walls and ordinary trees under overcast daylight, calm but not magical, natural colors, competent realistic rendering, no strong narrative, no text, no characters, no modern objects, 2k.",
+          "assets": [
+            {
+              "asset_id": "job-4c-mixed-fit-probe-001_p04_t01_img01",
+              "output_index": 1,
+              "file_path": "results/incoming/job-4c-mixed-fit-probe-001/prompt-p04/nano-banana-pro_job-4c-mixed-fit-probe-001_p04_img01_20260501.jpeg",
+              "mime_type": "image/jpeg",
+              "width": 2752,
+              "height": 1536,
+              "image_origin": "generation",
+              "event_timestamp": "2026-05-01T21:41:54Z",
+              "sha256": "5b304d48e4023c6b9cc0d9150d4a2dea77f739d190c4068bb8665c59572e2b59",
+              "file_size_bytes": 4446727
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

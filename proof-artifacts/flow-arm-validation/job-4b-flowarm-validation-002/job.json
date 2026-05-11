@@ -1,0 +1,36 @@
+{
+  "schema_version": "handoff.v1",
+  "packet_type": "series_review_job_packet",
+  "job_id": "job-4b-flowarm-validation-002",
+  "intent_id": "intent-4b-flowarm-plan-07-validation",
+  "objective": "Generate one tiny Nano Banana Pro validation image so Flow Arm can prove the Track 4.B claim and result-manifest path.",
+  "packet_status": "dispatched",
+  "packet_revision": 2,
+  "created_at": "2026-04-30T06:13:04Z",
+  "last_preflight_at": "2026-04-30T07:27:34Z",
+  "preflight_notes": "Aaron explicitly approved this validation packet for dispatch; moved from draft to outgoing handoff queue.",
+  "approved_for_dispatch_by_aaron": true,
+  "output_resolution": "2k",
+  "generations_per_prompt": 1,
+  "result_manifest_path": "results/incoming/job-4b-flowarm-validation-002/manifest.json",
+  "prompts": [
+    {
+      "prompt_id": "p01",
+      "base_concept": "A quiet Series-world threshold at the edge of an old stone interior, with soft living overgrowth and late light crossing the floor.",
+      "world_state": "sacred",
+      "tone": "still",
+      "targets": [
+        {
+          "target_id": "p01-t01",
+          "model": "nano-banana-pro",
+          "model_version": "current",
+          "platform": "google-flow",
+          "created_by": "nano-banana-pro",
+          "playbook_ref": "prompting/playbooks/nano-banana-pro.md",
+          "experiment_ref": "prompting/experiments/nano-banana-pro.md",
+          "rendered_prompt": "A sacred still Series-world stone threshold, quiet interior edge, soft living overgrowth, late warm light crossing the floor, grounded cinematic composition, no text, no signage, no modern objects, 2k."
+        }
+      ]
+    }
+  ]
+}
